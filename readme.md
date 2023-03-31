@@ -9,6 +9,8 @@ You are assigned to help. You will be giving money to these residents subjected 
 
 Return _the minimum number of dollars you need to have to distribute the money to the residents to alleviate all of their unhappiness_.
 
+##
+
 **Example 1:**
 
 **Input:** unhappinessScores = [1,0,2]
@@ -16,6 +18,8 @@ Return _the minimum number of dollars you need to have to distribute the money t
 **Output:** 5
 
 **Explanation:** You can allocate to the first, second and third resident with 2, 1, 2 dollars respectively.
+
+##
 
 **Example 2:**
 
@@ -30,4 +34,4 @@ The third resident gets 1 dollar because it satisfies the above two conditions.
 
 - `n == unhappinessScores.length`
 - `1 <= n <= 2 * 104`
-- `0 <= ratings[i] <= 10`
+- `0 <= unhappinessScores[i] <= 10`
